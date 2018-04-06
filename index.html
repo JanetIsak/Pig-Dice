@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pig-Dice</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Pig Dice</h1>
+    <p><b>This is a game of dice done with two people.</p>
+    <li>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</li>
+    <li>If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
+    <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+    <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+    <li>The first player to score 100 or more points wins.</li>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <button type="button" name="button" class="btn btn-success">RollA</button>
+        <button type="button" name="button" class="btn btn-success">HoldA</button>
+      </div>
+      <div class="col-md-6">
+        <button type="button" name="button" class="btn btn-info">RollB</button>
+        <button type="button" name="button" class="btn btn-info">HoldB</button>
+      </div>
+    </div>
+    <div class="result">
+      <ul>
+
+      </ul></b>
+    </div>
+  </div>
+</body>
+
+</html>
+
+
+
+
+
+
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/scripts.js"></script>
+
+</html>

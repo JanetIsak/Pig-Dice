@@ -1,0 +1,12 @@
+h1 {
+  font-family: 'Indie Flower', cursive;
+  color: pink;
+}
+body {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color: red;
+  background-image: url(../images/pd.jpg);
+  padding-left: 5%;
+  padding-right: 50%;
+}
