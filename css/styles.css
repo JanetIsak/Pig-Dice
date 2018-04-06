@@ -1,12 +1,22 @@
-h1 {
-  font-family: 'Indie Flower', cursive;
-  color: pink;
-}
 body {
-  font-family: 'Indie Flower', cursive;
+  background-image: url(../images/pd3.jpeg);
+  opacity: 0.9;
+}
+h1 {
+  font-family: 'Chewy', cursive;
+  color: blue;
+  padding-bottom: 3%;
+  text-align: center;
+  font-size: 40px;
+}
+.container-fluid {
+  font-family: 'Chewy', cursive;
   font-size: 20px;
   color: red;
-  background-image: url(../images/pd.jpg);
   padding-left: 5%;
-  padding-right: 50%;
+  padding-right: 0%;
+}
+img {
+  padding-top: 7%;
+  margin-left: 10%;
 }
