@@ -23,6 +23,7 @@ _cd into it and ls it to see the html, css, js, images and README folders._
 _check with a command git remote -v to check if done correctly._
 _Open it on web-browser of your choice, and start using it._
 _Any changes must be pushed to Github with origin name instead of master._
+_Go to https://janetisak.github.io/Pig-Dice/ for more information._
 
 
 ## Known Bugs
